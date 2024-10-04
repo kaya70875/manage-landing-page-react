@@ -25,3 +25,9 @@ nav {
 .list-item a:active{
     color: var(--darkGrayishBlue);
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
