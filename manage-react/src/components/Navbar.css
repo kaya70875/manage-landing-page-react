@@ -5,6 +5,8 @@ nav {
     justify-content: space-between;
     align-items: center;
 
+    padding-inline: 7em;
+    padding-block: 5em;
 }
 
 .list-items {

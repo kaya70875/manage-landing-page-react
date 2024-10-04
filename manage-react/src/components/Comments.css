@@ -1,0 +1,41 @@
+.comments-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 6rem;
+    width: 100%;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.comments-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.comments-card-wrapper {
+    display: flex;
+    gap : 6rem;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.comments-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 2rem;
+
+    text-align: center;
+    min-width: 30rem;
+
+}
+
+.comments-card-comment  , .comments-card-comment p{
+    width: 100%;
+}
