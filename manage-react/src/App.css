@@ -6,10 +6,9 @@
 
     display: flex;
     flex-direction: column;
-    gap : 10rem;
 }
 
-main > *{
+main > * , footer{
     padding-inline: 7em;
     padding-block: 5em;
 }
