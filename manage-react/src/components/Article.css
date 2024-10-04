@@ -1,0 +1,38 @@
+article {
+    display: flex;
+    gap : 2rem;
+}
+
+.article-left {
+    display: flex;
+    flex : 1;
+}
+
+.article-right {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    width: 50%;
+}
+
+.article-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article-header p{
+    max-width: 24rem;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 3rem;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

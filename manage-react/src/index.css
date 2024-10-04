@@ -25,6 +25,19 @@
   max-width: 10rem;
 }
 
+.secondary-button {
+  background-color: var(--veryLightGray);
+  color: white;
+  background: var(--brightRed);
+  border : none;
+  border-radius: 2rem;
+  padding: .75rem 1.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  max-width: 10rem;
+  font-size: 1.2rem;
+}
+
 .primary-button:active {
   opacity: 0.8;
 }
@@ -32,11 +45,23 @@
 p {
   color: var(--darkGrayishBlue);
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 h1 {
   color: var(--darkBlue);
   font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--darkBlue);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: var(--darkBlue);
+  font-size: 1.2rem;
   font-weight: 700;
 }
