@@ -22,8 +22,21 @@
   padding: 1.25em 2.75em;
   font-weight: 500;
   cursor: pointer;
+  max-width: 10rem;
 }
 
 .primary-button:active {
   opacity: 0.8;
+}
+
+p {
+  color: var(--darkGrayishBlue);
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: var(--darkBlue);
+  font-size: 3.5rem;
+  font-weight: 700;
 }

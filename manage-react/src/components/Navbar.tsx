@@ -11,7 +11,7 @@ export default function Navbar() {
         <section className="links">
             <ul className="list-items">
                 <li className="list-item">
-                    <a href="#">Home</a>
+                    <a href="#">Pricing</a>
                 </li>
 
                 <li className="list-item">
