@@ -1,0 +1,25 @@
+nav {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list-items {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+    list-style: none;
+}
+
+.list-item a{
+    text-decoration: none;
+    color : var(--darkBlue);
+}
+
+.list-item a:active{
+    color: var(--darkGrayishBlue);
+}
