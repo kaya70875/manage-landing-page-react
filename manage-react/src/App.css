@@ -1,0 +1,9 @@
+.app {
+    width: 100%;
+    height: 100vh;
+    background: url('./assets/bg-simplify-section-desktop.svg') no-repeat;
+    background-color: var(--veryLightGray);
+
+    padding-inline: 9em;
+    padding-block: 5em;
+}

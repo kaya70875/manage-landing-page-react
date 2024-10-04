@@ -4,3 +4,26 @@
   box-sizing: border-box;
   font-family: "Be Vietnam Pro", sans-serif;
 }
+
+:root {
+  --brightRed: hsl(12, 88%, 59%);
+  --darkBlue: hsl(228, 39%, 23%);
+  --darkGrayishBlue: hsl(227, 12%, 61%);
+  --veryDarkBlue: hsl(233, 12%, 13%);
+  --veryPaleRed: hsl(13, 100%, 96%);
+  --veryLightGray: hsl(0, 0%, 98%);
+}
+
+.primary-button {
+  background-color: var(--brightRed);
+  color: var(--veryLightGray);
+  border: none;
+  border-radius: 2em;
+  padding: 1.25em 2.75em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.primary-button:active {
+  opacity: 0.8;
+}
