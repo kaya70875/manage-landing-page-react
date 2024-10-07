@@ -32,7 +32,7 @@ export default function Navbar() {
             </ul>
         </section>
 
-        <button className="primary-button">Get Started</button>
+        <button className="primary-button" data-name='nav'>Get Started</button>
 
     </nav>
   )

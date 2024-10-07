@@ -25,3 +25,27 @@
 .hero-header p {
     max-width: 24rem;
 }
+
+@media (max-width : 1058px) {
+
+    main {
+        gap : 2rem;
+    }
+
+    .hero-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        padding-block: 2em;
+    }
+
+    .hero-left {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-header {
+        align-items: center;
+    }
+}

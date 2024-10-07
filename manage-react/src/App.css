@@ -18,3 +18,9 @@ main {
     flex-direction: column;
     gap: 10rem;
 }
+
+@media (max-width : 1058px) {
+    main > * , footer{
+        padding-inline: 3em;
+    }
+}
