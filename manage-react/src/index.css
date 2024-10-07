@@ -50,7 +50,7 @@ p {
 
 h1 {
   color: var(--darkBlue);
-  font-size: 3.5rem;
+  font-size: 5vmin;
   font-weight: 700;
 }
 
