@@ -1,5 +1,6 @@
 import './Navbar.css';
 import Logo from '../assets/logo.svg';
+import hamburgerImg from '../assets/icon-hamburger.svg';
 
 export default function Navbar() {
   return (
@@ -31,7 +32,9 @@ export default function Navbar() {
                 </li>
             </ul>
         </section>
-
+        <div className="hamburger-menu">
+            <img src={hamburgerImg} />
+        </div>
         <button className="primary-button" data-name='nav'>Get Started</button>
 
     </nav>
