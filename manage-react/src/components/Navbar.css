@@ -9,6 +9,10 @@ nav {
     padding-block: 5em;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 .list-items {
     display: flex;
     align-items: center;
@@ -37,8 +41,36 @@ nav {
     nav {
         justify-content: space-around;
     }
-    
+
     .primary-button[data-name='nav'] {
         display: none;
+    }
+}
+
+@media (max-width : 910px) {
+    nav {
+        padding-inline: 2.5em;
+    }
+}
+
+/* Add hamburger menu */
+
+@media (max-width : 768px) {
+    .links {
+        position: absolute;
+        background: wheat;
+        width: 80%;
+        top : 20%;
+        padding-block: 2em;
+    }
+
+    .list-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .hamburger-menu {
+        display: block;
     }
 }
