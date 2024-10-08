@@ -3,6 +3,10 @@ import Logo from '../assets/logo.svg';
 import hamburgerImg from '../assets/icon-hamburger.svg';
 
 export default function Navbar() {
+    const handleClick = () => {
+        const nav = document.querySelector('.links');
+        nav?.classList.toggle('active');
+    }
   return (
     <nav>
         <section className="logo">
@@ -33,7 +37,9 @@ export default function Navbar() {
             </ul>
         </section>
         <div className="hamburger-menu">
-            <img src={hamburgerImg} />
+            <button className='hamburger-button' onClick={handleClick}>
+                <img src={hamburgerImg} />
+            </button>
         </div>
         <button className="primary-button" data-name='nav'>Get Started</button>
 
