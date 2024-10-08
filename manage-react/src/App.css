@@ -6,6 +6,12 @@
 
     display: flex;
     flex-direction: column;
+    transition: background-color 0.3s ease-in;
+}
+
+.app.blur {
+    background-color: var(--darkGrayishBlue);
+    opacity: 0.8;
 }
 
 main > * , footer{
@@ -22,5 +28,11 @@ main {
 @media (max-width : 1058px) {
     main > * , footer{
         padding-inline: 3em;
+    }
+}
+
+@media (max-width : 654px) {
+    main > * , footer{
+        padding-inline: 1em;
     }
 }
