@@ -79,7 +79,52 @@ footer {
         gap : 2rem;
         align-items: center;
         text-align: center;
-        
+    }
 
+    .footer-links {
+        width: 35%;
+    }
+}
+
+@media (max-width : 634px) {
+    footer {
+        flex-direction: column-reverse;
+        gap : 3rem;
+    }
+    .footer-links {
+        width: 80%;
+        text-align: start;
+
+        .footer-list-item a {
+            font-size: .9rem;
+            font-weight: 300;
+        }
+    }
+
+    .inbox {
+        width: 100%;
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .button-section {
+        gap : .75rem;
+    }
+
+    .footer-logo {
+        flex-direction: column-reverse;
+        gap : 3rem;
+        align-items: center;
+    }
+
+    .socials{
+        gap : 1.5rem;
+        
+        img {
+            width: 2rem;
+        }
+        
     }
 }
