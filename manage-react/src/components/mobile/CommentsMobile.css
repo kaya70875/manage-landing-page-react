@@ -1,0 +1,20 @@
+.ellipse-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .ellipse {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .ellipse.active {
+    background-color: #428493;
+  }
+  
