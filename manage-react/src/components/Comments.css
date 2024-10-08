@@ -39,3 +39,61 @@
 .comments-card-comment  , .comments-card-comment p{
     width: 100%;
 }
+
+.ellipse-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .ellipse {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .ellipse.active {
+    background-color: #428493;
+  }
+  
+
+@media (max-width : 654px) {
+    .comments-card-image img {
+        width: 85%;
+        height: 85%;
+        object-fit: contain;
+    }
+
+    .comments-card-comment{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            max-width: 20rem;
+        }
+    }
+
+    .comments-card {
+        min-width: 20rem;
+        gap : .75rem;
+    }
+
+    .comments-card-wrapper {
+        gap : 2rem;
+    }
+
+    .comments-wrapper {
+        gap : 3rem;
+    }
+}
+
+/* Small devices (phones) */
+@media (max-width : 360px) {
+    .comments-card-comment p{
+        max-width: 15rem;
+    }
+}
