@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/kaya70875/manage-react",
+  "homepage": "https://github.com/kaya70875/manage-landing-page-react",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
