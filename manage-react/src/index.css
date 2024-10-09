@@ -42,6 +42,15 @@
   opacity: 0.8;
 }
 
+.primary-button:hover {
+  opacity: 0.8;
+}
+
+.primary-2-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 p {
   color: var(--darkGrayishBlue);
   line-height: 1.5;

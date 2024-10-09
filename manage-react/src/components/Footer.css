@@ -21,6 +21,14 @@ footer {
     gap : 1rem;
 }
 
+.socials img {
+    cursor: pointer;
+}
+
+.socials img:hover {
+    filter: invert(56%) sepia(75%) saturate(400%) hue-rotate(338deg) brightness(90%) contrast(90%);
+}
+
 .footer-links {
     display: flex;
     justify-content: space-between;
@@ -41,6 +49,10 @@ footer {
     opacity: 0.7;
     text-decoration: none;
     font-weight: 400;
+}
+
+.footer-list-item a:hover {
+    color: var(--brightRed);
 }
 
 .inbox {

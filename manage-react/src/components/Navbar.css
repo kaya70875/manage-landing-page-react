@@ -31,6 +31,10 @@ nav {
     color: var(--darkGrayishBlue);
 }
 
+.list-item a:hover {
+    color: var(--darkGrayishBlue);
+}
+
 .logo {
     display: flex;
     align-items: center;
