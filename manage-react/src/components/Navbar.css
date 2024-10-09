@@ -63,7 +63,7 @@ nav {
         background: white;
         width: 90%;
         margin: 0 auto;
-        top : 30%;
+        top : clamp(250px, 25%, 50%);
         left : 50%;
         transform: translate(-50%, -50%);
         padding-block: 1.5em;
