@@ -37,8 +37,9 @@ main {
         height: auto;
     }
 
-    .main {
+    main {
         background-color: var(--veryLightGray);
+        gap : 3rem!important;
     }
     main > * , footer{
         padding-inline: 1em;

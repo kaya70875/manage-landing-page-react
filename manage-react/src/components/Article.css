@@ -73,6 +73,7 @@
 @media (max-width : 634px) {
     .article {
         padding-block: 0;
+        gap : 3rem;
     }
     .card-wrapper {
         flex-direction: column;
