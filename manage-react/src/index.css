@@ -23,6 +23,8 @@
   font-weight: 500;
   cursor: pointer;
   max-width: 10rem;
+
+  box-shadow: 0 1rem 1.5rem -0.5rem rgba(223, 88, 10, 0.527);
 }
 
 .secondary-button {
