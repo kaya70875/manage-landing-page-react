@@ -3,6 +3,7 @@ import avatarAnisha from '../assets/avatar-anisha.png'
 import avatarAli from '../assets/avatar-ali.png'
 import avatarRichard from '../assets/avatar-richard.png'
 import avatarShanai from '../assets/avatar-shanai.png'
+import {motion} from 'framer-motion'
 
 export default function Comments() {
 
@@ -30,7 +31,11 @@ export default function Comments() {
     ]
 
   return (
-    <div className="comments-wrapper">
+    <motion.div className="comments-wrapper"
+    initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false }}>
         <header className='comments-header'>
             <h2>What they've said</h2>
         </header>
@@ -50,6 +55,6 @@ export default function Comments() {
             ))}
         </div>
         <button className="primary-button">Get Started</button>
-    </div>
+    </motion.div>
   )
 }

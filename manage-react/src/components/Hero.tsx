@@ -1,8 +1,13 @@
 import illustration from '../assets/illustration-intro.svg'
 import './Hero.css'
+import { motion } from 'framer-motion';
 export default function Hero() {
   return (
-    <div className="hero-wrapper">
+    <motion.div className="hero-wrapper"
+    initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false }}>
         <section className="hero-left">
             <header className="hero-header">
                 <h1>Bring everyone together to build better products.</h1>
@@ -14,6 +19,6 @@ export default function Hero() {
         <section className="hero-right">
             <img src={illustration} alt="hero-illustration" />
         </section>
-    </div>
+    </motion.div>
   )
 }

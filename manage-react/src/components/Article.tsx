@@ -1,4 +1,5 @@
 import './Article.css';
+import { motion } from 'framer-motion';
 export default function Article() {
 
     const cardInfo = [
@@ -21,7 +22,11 @@ export default function Article() {
 
     const isMobile = window.matchMedia('(max-width: 470px)').matches;
     return (
-        <article>
+        <motion.div className='article'
+        initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: false }}>
             <section className='article-left'>
                 <header className='article-header'>
                     <h2>What's diffirent about Manage?</h2>
@@ -60,6 +65,6 @@ export default function Article() {
                     </div>
                 ))}
             </section>
-        </article>
+        </motion.div>
     )
 }

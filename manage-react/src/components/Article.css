@@ -1,4 +1,4 @@
-article {
+.article {
     display: flex;
     gap : 2rem;
 }
@@ -38,7 +38,7 @@ article {
 }
 
 @media (max-width : 1058px) {
-    article {
+    .article {
         flex-direction: column;
         gap : 6rem;
     }
@@ -71,7 +71,7 @@ article {
 }
 
 @media (max-width : 634px) {
-    article {
+    .article {
         padding-block: 0;
     }
     .card-wrapper {
