@@ -22,7 +22,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10rem;
-    background-color: var(--veryLightGray);
 }
 
 @media (max-width : 1058px) {
@@ -31,7 +30,16 @@ main {
     }
 }
 
+/* Mobile Only */
+
 @media (max-width : 654px) {
+    .app {
+        height: auto;
+    }
+
+    .main {
+        background-color: var(--veryLightGray);
+    }
     main > * , footer{
         padding-inline: 1em;
     }
